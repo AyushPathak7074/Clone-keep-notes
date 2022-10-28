@@ -64,11 +64,11 @@ a {
 .heading{
     margin-top: 2%;
     font-size: 2.5em;
-    background-color: rgb(216, 213, 23); 
+    background-color: rgb(217, 235, 176); 
 }
 #content{
       margin-top: 2%;
-      background-color: rgb(71, 64, 64);
+      background-color: rgb(217, 235, 176);
       color: wheat;
        height:75%;
       width:50%;
