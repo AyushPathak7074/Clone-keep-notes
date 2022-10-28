@@ -26,6 +26,8 @@ a {
 
 .header{
     border-bottom: 1px solid #E2E8F0;
+    position: relative;
+    flex-wrap: wrap;
 }
 
 .navbar {
@@ -69,31 +71,38 @@ a {
       background-color: rgb(28, 176, 187);
       color: wheat;
        height:75%;
-      width:44%;
+      width:50%;
       padding: 20px;
-      display: inline block;
-      /* position: static; */
+      /* display: inline block; */
+       position: relative; 
 
 }
 #content>input{
     height: 50%;
-    width: 500px;
+    width: 90%;
      padding: 10px;
     font-size: 15px;
-    position: relative;
+    /* position: relative; */
 }
 #content>button{
      float:right;  
-     height: 20%;
+     height: 35px;
      width: 10%;  
      background-color: rgb(36, 85, 243);
      color:#fff;
      font-size: 16px;
      cursor:pointer ;
+     position: absolute;
 
 }
 .button:hover{
     background-color: black;
     transition: 05s;
 
+}
+@media only screen and (max-width: 850px) {
+    
+    .navbar,.header,.nav-item{
+        flex-direction: column;
+    }
 }
