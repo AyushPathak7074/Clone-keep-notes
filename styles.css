@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(0, 214, 214);
+    background-color: rgb(250, 228, 34);
 }
 .keepimg
 {
@@ -45,7 +45,7 @@ a {
 }
 
 .nav-link:hover{
-    color: #1ae5f7;
+    color: #f5f827;
 }
 
 .nav-logo {
@@ -64,11 +64,11 @@ a {
 .heading{
     margin-top: 2%;
     font-size: 2.5em;
-    background-color: aquamarine; 
+    background-color: rgb(216, 213, 23); 
 }
 #content{
       margin-top: 2%;
-      background-color: rgb(28, 176, 187);
+      background-color: rgb(71, 64, 64);
       color: wheat;
        height:75%;
       width:50%;
@@ -88,7 +88,7 @@ a {
      float:right;  
      height: 35px;
      width: 10%;  
-     background-color: rgb(36, 85, 243);
+     background-color: rgb(11, 13, 20);
      color:#fff;
      font-size: 16px;
      cursor:pointer ;
